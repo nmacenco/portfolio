@@ -51,7 +51,7 @@ export default function Portfolio() {
       </ul>
       {data.map((d) => (
         <div key={d.id} className="container">
-            <a href= {d.url} target = '_blank' className="item" >
+            <a href= {d.url}  className="item" >
             <img
               src= {d.img}
               width={"150px"}

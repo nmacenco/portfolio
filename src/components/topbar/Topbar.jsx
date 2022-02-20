@@ -14,10 +14,10 @@ export default function Topbar({menuOpen , setMenuOpen}) {
             <span>nicolasmacenco@gmail.com</span>
           </div>
           <div className="itemContainer">
-            <span> <a href="https://www.linkedin.com/in/nicolas-macenco/" target="_blank"><LinkedInIcon className='icon' /></a></span>
+            <span> <a href="https://www.linkedin.com/in/nicolas-macenco/" ><LinkedInIcon className='icon' /></a></span>
           </div>
           <div className="itemContainer">
-            <span> <a href="https://github.com/nmacenco" target="_blank"><GitHubIcon className='icon' /></a></span>
+            <span> <a href="https://github.com/nmacenco" ><GitHubIcon className='icon' /></a></span>
           </div>
           <div className="itemContainer">
             <span> <a href="/assets/MacencoNicolas-CV..pdf" download={'MacencoNicolas-CV..pdf'}><PictureAsPdfIcon className='icon' /></a></span>
