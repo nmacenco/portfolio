@@ -1,0 +1,25 @@
+@import "../../global.scss";
+.testimonials {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .container {
+        width: 80%;
+        // height: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color: crimson;;
+        h1 {
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+    }
+    .skillsContainer {
+        display: flex;
+        justify-content: center;
+
+    }
+    }
