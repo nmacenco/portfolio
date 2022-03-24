@@ -21,6 +21,13 @@ export const html = [
         "/portfolio/Weatherapp.PNG",
       url : 'https://weather-app-nicom.herokuapp.com/'
     },
+    {
+      id: 1,
+      title: "Pokemon App",
+      img:
+        "/portfolio/PokemonApp.PNG",
+      url : 'https://henry-pi-pokemon.vercel.app/'
+    },
  
   ];
   

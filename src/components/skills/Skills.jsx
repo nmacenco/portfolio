@@ -4,7 +4,7 @@ import VerifiedIcon from '@mui/icons-material/Verified';
 import React from "react";
 // import { skills } from "../data";
 
-let skills = [ 'React' , 'JavaScript' , 'NodeJs' , 'MySQL' , 'Redux']
+let skills = [ 'React' , 'JavaScript' , 'NodeJs' , 'MySQL' , 'Redux', 'PostgreSQL' , 'CSS', 'SCRUM']
 
 export default function Skills() {
   return (

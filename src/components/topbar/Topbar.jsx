@@ -20,7 +20,7 @@ export default function Topbar({menuOpen , setMenuOpen}) {
             <span> <a href="https://github.com/nmacenco" ><GitHubIcon className='icon' /></a></span>
           </div>
           <div className="itemContainer">
-            <span> <a href="/assets/MacencoNicolas-CV..pdf" download={'MacencoNicolas-CV..pdf'}><PictureAsPdfIcon className='icon' /></a></span>
+            <span> <a href="/assets/MacencoNicolas-CV.pdf" download={'MacencoNicolas-CV..pdf'}><PictureAsPdfIcon className='icon' /></a></span>
           </div>
         </div>
         <div className='right'>
