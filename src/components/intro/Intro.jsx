@@ -24,7 +24,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Nico Macenco</h1>
           <h3>
-            Web <span ref={textRef}></span>
+            Full Stack <span ref={textRef}></span>
           </h3>
           <a href="#portfolio">
             <img src="assets/down.png" alt="" />
