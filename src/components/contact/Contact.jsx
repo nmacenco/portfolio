@@ -17,6 +17,7 @@ export default function Contact() {
         <form name="contact" /*onSubmit={handleSubmit}*/ action="" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <input type="email" name="email" placeholder="Email" />
+          <input type="text" name="subject" placeholder="Subject" />
           <textarea
             placeholder="Message"
             name="message"

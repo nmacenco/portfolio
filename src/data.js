@@ -1,13 +1,13 @@
-export const html = [
-    {
-      id: 1,
-      title: "Mercado Liebre",
-      img:
-        "/portfolio/Mercadoliebre.png",
-      url : 'https://dh-mercadoliebre-nm.herokuapp.com/'
-    },
+export const node = [
+  {
+    id: 1,
+    title: "Mercado Liebre",
+    img:
+      "/portfolio/Mercadoliebre.png",
+    url : 'https://mercadoliebre-nm.cyclic.app/'
+  },
 
-  ];
+];
   
   export const javascript = [
 
@@ -19,14 +19,21 @@ export const html = [
       title: "Weather App",
       img:
         "/portfolio/Weatherapp.PNG",
-      url : 'https://weather-app-nicom.herokuapp.com/'
+      url : 'https://nm-weatherapp.netlify.app/'
     },
     {
-      id: 1,
+      id: 2,
       title: "Pokemon App",
       img:
         "/portfolio/PokemonApp.PNG",
       url : 'https://henry-pi-pokemon.vercel.app/'
+    },
+    {
+      id: 3,
+      title: "Map App",
+      img:
+        "/portfolio/MapApp.PNG",
+      url : 'https://react-maps-app-nm.netlify.app/'
     },
  
   ];
