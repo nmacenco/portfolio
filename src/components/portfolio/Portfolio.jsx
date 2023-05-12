@@ -15,10 +15,10 @@ export default function Portfolio() {
       id: "Node",
       title: "Node",
     },
-    {
-      id: "javascript",
-      title: "Javascript",
-    },
+    // {
+    //   id: "javascript",
+    //   title: "Javascript",
+    // },
   ];
   useEffect(() => {
     switch (selected) {
