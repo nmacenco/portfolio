@@ -1,7 +1,7 @@
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList.jsx";
 import { useEffect, useState } from "react";
-import { node, javascript, react } from "../../data";
+import { node, javascript, react , next} from "../../data";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("Node");
@@ -14,6 +14,10 @@ export default function Portfolio() {
     {
       id: "Node",
       title: "Node",
+    },
+    {
+      id: "Next",
+      title: "Next",
     },
     // {
     //   id: "javascript",
@@ -30,6 +34,9 @@ export default function Portfolio() {
         break;
       case "react":
         setData(react);
+        break;
+      case "Next":
+        setData(next);
         break;
       default:
         setData(node);

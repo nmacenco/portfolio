@@ -8,6 +8,16 @@ export const node = [
   },
 
 ];
+export const next = [
+  {
+    id: 1,
+    title: "Next Pokemon",
+    img:
+      "/portfolio/NextPokemon.PNG",
+    url : 'https://next-pokemon-nm.vercel.app/'
+  },
+
+];
   
   export const javascript = [
 

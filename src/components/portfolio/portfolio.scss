@@ -17,16 +17,21 @@
         padding: 0;
         list-style: none;
         display: flex;
-
+        justify-content: space-around;
+        min-width: 300px;
+        
         @include mobile {
             margin: 10px 0 ;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
+            min-width: 300px;
         }
 
     }
     .projectsContainer{
         display: flex;
+        min-width: 500px;
+        justify-content: center;
         @include mobile {
             flex-direction: column;
         }
